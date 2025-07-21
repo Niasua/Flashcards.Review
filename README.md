@@ -1,4 +1,4 @@
-# Flashcards Study App
+## Flashcards Study App
 
 This is a C# console application that allows users to create stacks of
 flashcards, review them, and track study sessions. It was developed as part
