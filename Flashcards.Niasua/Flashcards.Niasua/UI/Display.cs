@@ -1,8 +1,5 @@
 ﻿using Flashcards.Niasua.DTOs;
-using Flashcards.Niasua.Models;
 using Spectre.Console;
-using System.Collections;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Flashcards.Niasua.UI;
 
@@ -97,7 +94,7 @@ public class Display
         return score;
     }
 
-    internal static void ShowFlaschardsTable(List<FlashcardDTO> flashcards)
+    internal static void ShowFlaschardsTable(List<FlashcardDto> flashcards)
     {
         var table = new Table();
         table.Border(TableBorder.Rounded);
@@ -135,7 +132,7 @@ public class Display
         AnsiConsole.Write(table);
     }
 
-    internal static void ShowStudySessions(List<StudySessionDTO> sessions)
+    internal static void ShowStudySessions(List<StudySessionDto> sessions)
     {
         var table = new Table();
         table.Border(TableBorder.Rounded);

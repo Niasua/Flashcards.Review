@@ -161,8 +161,6 @@ public class FlashcardMenu
                 continue;
             }
 
-            var flashcardToUpdate = flashcards[displayId - 1];
-
             Console.Clear();
             AnsiConsole.MarkupLine($"[yellow]Editing flashcard #{displayId}[/]");
             AnsiConsole.MarkupLine("\nType the new [green]question[/] (type 'zzz' to return to the menu):");
@@ -222,8 +220,6 @@ public class FlashcardMenu
                 Console.ReadKey();
                 continue;
             }
-
-            var flashcardToDelete = flashcards[displayId - 1];
 
             Console.Clear();
             AnsiConsole.MarkupLine($"[yellow]Deleting flashcard #{displayId}[/]");
