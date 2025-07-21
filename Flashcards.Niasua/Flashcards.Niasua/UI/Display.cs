@@ -5,7 +5,7 @@ namespace Flashcards.Niasua.UI;
 
 public class Display
 {
-    internal static int? ShowFlashcards(List<FlashcardDTO> flashcards, bool isStudying)
+    internal static int? ShowFlashcards(List<FlashcardDto> flashcards, bool isStudying)
     {
         Console.Clear();
         if (flashcards == null || flashcards.Count == 0)
